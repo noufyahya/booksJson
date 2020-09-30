@@ -117,14 +117,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: #ecc0a5;
 }
 
+.body-wrapper .books .book_table {
+  margin-left: 15%;
+}
+
 .body-wrapper .books .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-collapse: collapse;
   text-align: left;
   border: 1px solid rgba(221, 221, 221, 0.562);

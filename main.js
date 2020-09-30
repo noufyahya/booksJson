@@ -87,18 +87,16 @@ console.log("hi");
 
 function bookTable(book) {
     return `
-    
             <tr> 
             <td>${book.title}</td>
             <td>${book.author}</td>
             <td> ${book.publisher}</td>
             <td> <a href="${book.website}"> PRESS HERE  </a></td>
             </tr>
-      
     `;
 }
 document.getElementById("book_table").innerHTML = `
-<h2 >Books <sub class="result_length"> (${booksData.length} results)</sub></h2>
+<h2>Books <sub class="result_length"> (${booksData.length} results)</sub></h2>
 <div class="book_wrapper">
         <table class="table">
         <tbody>

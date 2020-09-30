@@ -33,7 +33,6 @@
         @include flexCenter(column, rgb(216, 161, 148));
 
 
-
         p {
             margin-top: 10px;
             color: rgba(118, 31, 20, 0.705);
@@ -46,10 +45,14 @@
 
     .books {
         color: $textColor;
-        @include flexCenter(row, #ecc0a5);
+        @include flexCenter(column, #ecc0a5);
+
+        .book_table {
+            margin-left: 15%;
+        }
 
         .table {
-
+            display: flex;
             @include table();
         }
 
