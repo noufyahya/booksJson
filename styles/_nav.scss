@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    .nav-wrapper {
+        font-size: 1.5em;
+    }
+}
+
+.nav-wrapper {
+    display: flex;
+    font-family: $font-stack;
+    color: #8D5f5b;
+
+
+    .nav {
+        position: fixed;
+        height: 100%;
+        background: #8D5f5b;
+        width: 15%;
+
+
+        h1 {
+            font-size: 4vw;
+            color: $textColor;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 10px;
+            padding-bottom: 20px;
+            padding: 30px 10px;
+        }
+
+        li {
+            a {
+                @include li();
+
+            }
+        }
+    }
+
+    .social_media {
+        @include sm();
+    }
+}

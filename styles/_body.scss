@@ -1,0 +1,79 @@
+@import './header';
+
+
+@mixin table {
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid rgba(221, 221, 221, 0.562);
+    width: 100%;
+
+    tr {
+        background: rgb(249, 231, 216);
+
+        td,
+        th {
+
+            padding: 1%;
+
+            a {
+                @include a();
+            }
+        }
+    }
+}
+
+.body-wrapper {
+    font-family: "DM Serif Display", "san serif";
+    color: $textColor;
+    width: 100%;
+
+    .home {
+        color: $textColor;
+
+        @include flexCenter(column, rgb(216, 161, 148));
+
+
+
+        p {
+            margin-top: 10px;
+            color: rgba(118, 31, 20, 0.705);
+            margin-left: 22%;
+            margin-right: 10%;
+            text-align: justify;
+            text-indent: 7%;
+        }
+    }
+
+    .books {
+        color: $textColor;
+        @include flexCenter(row, #ecc0a5);
+
+        .table {
+
+            @include table();
+        }
+
+        .footer {
+            font-size: .7rem;
+            color: #888;
+        }
+    }
+
+    .contact {
+        color: $textColor;
+        @include flexCenter(column, rgb(249, 231, 216));
+
+        .para {
+            display: flex;
+
+            a {
+                @include a()
+            }
+        }
+
+
+    }
+
+
+
+}

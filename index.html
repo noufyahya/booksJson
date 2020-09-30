@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      data-search-pseudo-elements
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Sassy</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="nav-wrapper">
+        <div class="nav">
+          <h1>Nav</h1>
+          <li>
+            <a href="#home"><i class="fas fa-house-user"></i> Home</a>
+          </li>
+          <li>
+            <a href="#books"><i class="fas fa-book-open"></i> Books Page</a>
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="fas fa-phone-square-alt"></i> Contacts
+            </a>
+          </li>
+
+          <div class="social_media">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="body-wrapper" id="home">
+        <div class="home">
+          <header>
+            <h1>Hey There</h1>
+          </header>
+          <p>
+            This project is to showcase my skills in frontend using SCSS
+            framework and vanilla JS, this website shows you in the "Books page"
+            section, the books that i got from the books json file, it shows
+            them in a table using vanilla JS, which is an efficient way in
+            creating tables or any thing that is complicated when done using
+            html.
+          </p>
+        </div>
+        <div class="books" id="books">
+          <div id="book_table"></div>
+        </div>
+        <div class="contact" id="contact">
+          <h2>Our contact info</h2>
+
+          <p class="para">
+            <i>Portfolio : </i>
+            <a href="https://github.com/noufyahya" class="href"> Github </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>

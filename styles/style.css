@@ -1,0 +1,191 @@
+@media screen and (max-width: 480px) {
+  .nav-wrapper {
+    font-size: 1.5em;
+  }
+}
+
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "DM Serif Display", "san serif";
+  color: #8D5f5b;
+}
+
+.nav-wrapper .nav {
+  position: fixed;
+  height: 100%;
+  background: #8D5f5b;
+  width: 15%;
+}
+
+.nav-wrapper .nav h1 {
+  font-size: 4vw;
+  color: rgba(128, 21, 21, 0.801);
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+  padding: 30px 10px;
+}
+
+.nav-wrapper .nav li a {
+  font-size: 1.4vw;
+  color: #f9e7d8;
+  text-decoration: none;
+  list-style: none;
+  display: block;
+  padding: 15px 10px;
+  text-align: center;
+  border-bottom: 1px solid rgba(249, 231, 216, 0.062);
+  border-top: 1px solid rgba(141, 95, 91, 0.103);
+}
+
+.nav-wrapper .nav li a:hover {
+  background: rgba(118, 31, 20, 0.908);
+  color: #ebdbd1;
+}
+
+.nav-wrapper .social_media {
+  position: Absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-wrapper .social_media a {
+  display: block;
+  width: 40px;
+  background: rgba(128, 21, 21, 0.801);
+  height: 35px;
+  text-align: center;
+  margin: 0 5px;
+  color: #f9e7d8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.body-wrapper {
+  font-family: "DM Serif Display", "san serif";
+  color: rgba(128, 21, 21, 0.801);
+  width: 100%;
+}
+
+.body-wrapper .home {
+  color: rgba(128, 21, 21, 0.801);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #d8a194;
+}
+
+.body-wrapper .home p {
+  margin-top: 10px;
+  color: rgba(118, 31, 20, 0.705);
+  margin-left: 22%;
+  margin-right: 10%;
+  text-align: justify;
+  text-indent: 7%;
+}
+
+.body-wrapper .books {
+  color: rgba(128, 21, 21, 0.801);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: #ecc0a5;
+}
+
+.body-wrapper .books .table {
+  border-collapse: collapse;
+  text-align: left;
+  border: 1px solid rgba(221, 221, 221, 0.562);
+  width: 100%;
+}
+
+.body-wrapper .books .table tr {
+  background: #f9e7d8;
+}
+
+.body-wrapper .books .table tr td,
+.body-wrapper .books .table tr th {
+  padding: 1%;
+}
+
+.body-wrapper .books .table tr td a,
+.body-wrapper .books .table tr th a {
+  color: rgba(118, 31, 20, 0.908);
+  text-decoration: none;
+  list-style: none;
+}
+
+.body-wrapper .books .footer {
+  font-size: .7rem;
+  color: #888;
+}
+
+.body-wrapper .contact {
+  color: rgba(128, 21, 21, 0.801);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: middle;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f9e7d8;
+}
+
+.body-wrapper .contact .para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-wrapper .contact .para a {
+  color: rgba(118, 31, 20, 0.908);
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
