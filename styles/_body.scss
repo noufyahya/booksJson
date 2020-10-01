@@ -5,7 +5,9 @@
     border-collapse: collapse;
     text-align: left;
     border: 1px solid rgba(221, 221, 221, 0.562);
-    width: 100%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
 
     tr {
         background: rgb(249, 231, 216);
@@ -13,7 +15,8 @@
         td,
         th {
 
-            padding: 1%;
+            padding: 0.5%;
+            padding-left: 10px;
 
             a {
                 @include a();
